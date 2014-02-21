@@ -7,8 +7,7 @@ uses
 
 
 type
-  TGato = class(TAnimal)
-
+  TGato = class(TAnimal
   end;
 
 implementation
