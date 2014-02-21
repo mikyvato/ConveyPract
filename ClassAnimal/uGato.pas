@@ -7,11 +7,11 @@ uses
 
 
 type
-  TGato = class(TAnimal
+  TGato = class(TAnimal)
   private
     FEspecie: string;
   public
-    constructor Create;
+    constructor Create; override;
   end;
 
 implementation
@@ -19,7 +19,7 @@ implementation
 constructor TGato.Create;
 begin
   inherited;
-  FEspecie := "Felino";
+  FEspecie := 'Felino';
 end;
 
 end.
