@@ -41,5 +41,6 @@ object FPrincipal: TFPrincipal
     Height = 49
     Caption = 'Gato'
     TabOrder = 2
+    OnClick = BGatoClick
   end
 end

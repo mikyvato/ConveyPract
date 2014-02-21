@@ -12,6 +12,7 @@ type
     FEspecie: string;
   public
     constructor Create; override;
+    function Hablar: string;
   end;
 
 implementation
@@ -19,7 +20,13 @@ implementation
 constructor TGato.Create;
 begin
   inherited;
-  FEspecie := "Felino";
+  FEspecie := 'Felino';
+end;
+
+function TGato.Hablar: string;
+begin
+  Result := 'Mauyar';
+  // TODO -cMM: TGato.Hablar default body inserted
 end;
 
 end.
