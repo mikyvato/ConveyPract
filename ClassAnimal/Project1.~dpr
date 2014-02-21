@@ -4,8 +4,7 @@ uses
   Forms,
   Unit1 in 'Unit1.pas' {FPrincipal},
   uAnimal in 'uAnimal.pas',
-  uPerro in 'uPerro.pas',
-  uGato in 'uGato.pas';
+  uPerro in 'uPerro.pas';
 
 {$R *.RES}
 

@@ -25,21 +25,13 @@ object FPrincipal: TFPrincipal
     TabOrder = 0
     OnClick = Button1Click
   end
-  object BPerro: TButton
+  object Button2: TButton
     Left = 32
     Top = 64
     Width = 121
     Height = 49
     Caption = 'Perro'
     TabOrder = 1
-    OnClick = BPerroClick
-  end
-  object BGato: TButton
-    Left = 32
-    Top = 128
-    Width = 121
-    Height = 49
-    Caption = 'Gato'
-    TabOrder = 2
+    OnClick = Button2Click
   end
 end

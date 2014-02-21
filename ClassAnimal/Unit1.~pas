@@ -12,12 +12,11 @@ Const
 type
   TFPrincipal = class(TForm)
     Button1: TButton;
-    BPerro: TButton;
-    BGato: TButton;
+    Button2: TButton;
     procedure FormDestroy(Sender: TObject);
     procedure FormCreate(Sender: TObject);
     procedure Button1Click(Sender: TObject);
-    procedure BPerroClick(Sender: TObject);
+    procedure Button2Click(Sender: TObject);
     procedure FormMouseDown(Sender: TObject; Button: TMouseButton; Shift:
         TShiftState; X, Y: Integer);
   private
@@ -62,7 +61,7 @@ begin
    ShowMessage(FList.Text);
 end;
 
-procedure TFPrincipal.BPerroClick(Sender: TObject);
+procedure TFPrincipal.Button2Click(Sender: TObject);
 begin
    Showmessage(FPerro.Especie + ' ' + FPerro.Hablar);
 end;
